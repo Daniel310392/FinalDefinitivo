@@ -1,0 +1,559 @@
+body div main p, body main.contentNosotros main h2, body main.contentNosotros main section h2, body main.contentNosotros main div form fieldset legend h3 {
+  text-align: center; }
+
+body {
+  background-color: #f9dae4; }
+  body div header {
+    background-color: #f48fb1;
+    text-align: center; }
+    body div header div a {
+      height: 3rem; }
+      body div header div a .logo {
+        width: 6.5rem;
+        margin-top: -1.8rem; }
+  body div nav div ul li a .nav-link:hover {
+    transform: scale(1.05); }
+  body .mainContent {
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: "banner banner" "subOferta subOferta" "imagen1 imagen2" "imagen3 imagen4";
+    justify-content: center;
+    justify-items: center;
+    gap: .5rem; }
+    body .mainContent .banner {
+      grid-area: banner; }
+    body .mainContent .banner img {
+      width: 100%;
+      justify-content: center; }
+    body .mainContent .banner img:hover {
+      transform: scale(1.05); }
+    body .mainContent .subOferta {
+      grid-area: subOferta;
+      text-align: center;
+      font-size: 150%;
+      color: #f01ade; }
+    body .mainContent .imagen1 {
+      grid-area: imagen1;
+      justify-self: right;
+      display: none; }
+    body .mainContent .imagen1 img {
+      width: 100%; }
+    body .mainContent .imagen2 {
+      grid-area: imagen2;
+      justify-self: left;
+      display: none; }
+    body .mainContent .imagen2 img {
+      width: 100%; }
+    body .mainContent .imagen3 {
+      grid-area: imagen3;
+      justify-self: right;
+      display: none; }
+    body .mainContent .imagen3 img {
+      width: 100%; }
+    body .mainContent .imagen4 {
+      grid-area: imagen4;
+      justify-self: left;
+      display: none; }
+    body .mainContent .imagen4 img {
+      width: 100%; }
+  body div .footerGeneral {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background-color: #f48fb1; }
+    body div .footerGeneral section {
+      display: flex;
+      justify-content: space-evenly; }
+      body div .footerGeneral section .Nosotros {
+        width: 30%; }
+        body div .footerGeneral section .Nosotros h3 {
+          font-size: large; }
+        body div .footerGeneral section .Nosotros ul {
+          padding-left: 0.5rem; }
+          body div .footerGeneral section .Nosotros ul li {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            font-size: medium; }
+      body div .footerGeneral section .categorias {
+        width: 30%; }
+        body div .footerGeneral section .categorias h3 {
+          font-size: large; }
+        body div .footerGeneral section .categorias ul {
+          padding-left: 0.5rem; }
+          body div .footerGeneral section .categorias ul li {
+            display: flex;
+            flex-direction: column;
+            font-size: medium; }
+      body div .footerGeneral section .Contacto {
+        display: flex;
+        flex-direction: column;
+        width: 30%; }
+        body div .footerGeneral section .Contacto h3 {
+          font-size: large; }
+        body div .footerGeneral section .Contacto ul {
+          padding-left: 0.5rem; }
+          body div .footerGeneral section .Contacto ul li {
+            display: flex;
+            font-size: medium; }
+    body div .footerGeneral h3 {
+      font-size: 1.5rem;
+      margin-left: .5rem; }
+    body div .footerGeneral h4 {
+      font-size: .8rem; }
+    body div .footerGeneral h5 {
+      font-size: .6rem; }
+    body div .footerGeneral .derechos {
+      padding: .5rem 1rem .5rem 1rem;
+      background-color: #f3c2cb; }
+      body div .footerGeneral .derechos h4 {
+        text-align: center; }
+      body div .footerGeneral .derechos h5 {
+        text-align: center; }
+
+body div main p {
+  font-size: large; }
+
+body div main img {
+  width: 100%;
+  height: auto; }
+
+body .facebook a img {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 3rem; }
+
+body main.contentNosotros main h2 {
+  color: #f4439e; }
+
+body main.contentNosotros main .h2Nosotros {
+  text-decoration: underline;
+  color: palevioletred;
+  font-size: 2rem; }
+
+body main.contentNosotros main article .parrafoNosotros {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #f4439e; }
+
+body main.contentNosotros main .nosotrosFoto img {
+  margin: 0;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+  height: 100%; }
+
+body main.contentNosotros main div form fieldset legend h3 {
+  color: #f134d2; }
+
+body main.contentNosotros main div form fieldset div label {
+  color: #f134d2; }
+
+body main.contentNosotros main div form fieldset div {
+  display: flex;
+  justify-content: center;
+  margin: 1rem; }
+
+body .facebook a img {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 5rem; }
+
+.catalogo {
+  display: grid;
+  grid-template-areas: "categorias categorias" "producto1 producto2" " producto3 producto4" "producto5 producto6" "producto7 producto8" "producto9 producto10" "producto11 producto12" "producto13 producto14" "producto15 producto16" "producto17 producto18" "producto19 producto20";
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem; }
+  .catalogo .categoriasM {
+    grid-area: categorias; }
+    .catalogo .categoriasM h2 {
+      text-align: center;
+      color: palevioletred;
+      text-decoration: underline; }
+    .catalogo .categoriasM nav {
+      display: flex;
+      justify-content: center; }
+      .catalogo .categoriasM nav ul {
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 1rem; }
+        .catalogo .categoriasM nav ul li {
+          text-align: center;
+          list-style: none;
+          font-size: medium;
+          color: #f406d8; }
+  .catalogo .producto1 {
+    grid-area: producto1; }
+  .catalogo .producto2 {
+    grid-area: producto2; }
+  .catalogo .producto3 {
+    grid-area: producto3; }
+  .catalogo .producto4 {
+    grid-area: producto4; }
+  .catalogo .producto5 {
+    grid-area: producto5; }
+  .catalogo .producto6 {
+    grid-area: producto6; }
+  .catalogo .producto7 {
+    grid-area: producto7; }
+  .catalogo .producto8 {
+    grid-area: producto8; }
+  .catalogo .producto9 {
+    grid-area: producto9; }
+  .catalogo .producto10 {
+    grid-area: producto10; }
+  .catalogo .producto11 {
+    grid-area: producto11; }
+  .catalogo .producto12 {
+    grid-area: producto12; }
+  .catalogo .producto13 {
+    grid-area: producto13; }
+  .catalogo .producto14 {
+    grid-area: producto14; }
+  .catalogo .producto15 {
+    grid-area: producto15; }
+  .catalogo .producto16 {
+    grid-area: producto16; }
+  .catalogo .producto17 {
+    grid-area: producto17; }
+  .catalogo .producto18 {
+    grid-area: producto18; }
+  .catalogo .producto19 {
+    grid-area: producto19; }
+  .catalogo .producto20 {
+    grid-area: producto20; }
+
+.mainTips {
+  display: none; }
+
+.imgFirstMobileTips {
+  width: 100%;
+  height: 75%;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+  .imgFirstMobileTips img {
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%; }
+
+.parrafoMarcas {
+  padding-top: 1rem;
+  font-size: 0.8rem; }
+
+.marcasImg {
+  margin-top: 2rem; }
+
+.nuevasMarcas {
+  margin-top: 2rem; }
+
+@media screen and (min-width: 800px) {
+  body div header {
+    background-color: #f48fb1;
+    text-align: center; }
+    body div header div a {
+      height: 4rem; }
+      body div header div a .logo {
+        width: 8rem;
+        margin-top: -2rem; }
+  body .mainContent {
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: "banner banner banner banner" "subOferta subOferta subOferta subOferta" "imagen1 imagen2 imagen3 imagen4";
+    justify-content: center;
+    justify-items: center;
+    gap: .5rem; }
+    body .mainContent .banner {
+      grid-area: banner; }
+      body .mainContent .banner .subOferta {
+        grid-area: subOferta; }
+      body .mainContent .banner .imagen1 {
+        grid-area: imagen1; }
+      body .mainContent .banner .imagen1 img {
+        width: 100%; }
+      body .mainContent .banner .imagen2 {
+        grid-area: imagen2;
+        justify-self: left;
+        display: none; }
+      body .mainContent .banner .imagen2 img {
+        width: 100%; }
+      body .mainContent .banner .imagen3 {
+        grid-area: imagen3;
+        justify-self: right;
+        display: none; }
+      body .mainContent .banner .imagen3 img {
+        width: 100%; }
+      body .mainContent .banner .imagen4 {
+        grid-area: imagen4;
+        justify-self: left;
+        display: none; }
+      body .mainContent .banner .imagen4 img {
+        width: 100%; }
+  main .catalogo {
+    display: grid;
+    grid-template-areas: "categorias categorias categorias" "producto1 producto2 producto3 " "producto4 producto5 producto6 " "producto7 producto8 producto9 " "producto10 producto11 producto12 " "producto13 producto14 producto15 " "producto16 producto17 producto18 ";
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  main .categoriasM {
+    grid-area: categorias; }
+    main .categoriasM h2 {
+      font-size: xx-large; }
+    main .categoriasM nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 3rem; }
+      main .categoriasM nav ul .subtitulo {
+        font-size: 1.5rem; }
+      main .categoriasM nav ul li {
+        color: #f406d8; }
+  main .producto1 {
+    grid-area: producto1; }
+  main .producto2 {
+    grid-area: producto2; }
+  main .producto3 {
+    grid-area: producto3; }
+  main .producto4 {
+    grid-area: producto4; }
+  main .producto5 {
+    grid-area: producto5; }
+  main .producto6 {
+    grid-area: producto6; }
+  main .producto7 {
+    grid-area: producto7; }
+  main .producto8 {
+    grid-area: producto8; }
+  main .producto9 {
+    grid-area: producto9; }
+  main .producto10 {
+    grid-area: producto10; }
+  main .producto11 {
+    grid-area: producto11; }
+  main .producto12 {
+    grid-area: producto12; }
+  main .producto13 {
+    grid-area: producto13; }
+  main .producto14 {
+    grid-area: producto14; }
+  main .producto15 {
+    grid-area: producto15; }
+  main .producto16 {
+    grid-area: producto16; }
+  main .producto17 {
+    grid-area: producto17; }
+  main .producto18 {
+    grid-area: producto18; }
+  main .producto19 {
+    display: none;
+    grid-area: producto19; }
+  main .producto20 {
+    display: none;
+    grid-area: producto20; }
+  body div .footerGeneral {
+    background-color: #f48fb1; }
+    body div .footerGeneral section {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center; }
+      body div .footerGeneral section h3 {
+        margin: 0rem; }
+      body div .footerGeneral section .Nosotros {
+        width: 30%; }
+      body div .footerGeneral section .categorias {
+        width: 30%; }
+      body div .footerGeneral section .Contacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: row nowrap;
+        width: 30%; }
+        body div .footerGeneral section .Contacto ul li {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap; }
+      body div .footerGeneral section ul li {
+        list-style-type: none;
+        padding-top: .5rem;
+        font-size: 1rem; }
+    body div .footerGeneral h3 {
+      font-size: 1.5rem;
+      margin-left: 2rem; }
+    body div .footerGeneral h4 {
+      font-size: .8rem; }
+    body div .footerGeneral h5 {
+      font-size: .6rem; }
+    body div .footerGeneral .derechos {
+      padding: .5rem 1rem .5rem 1rem;
+      background-color: #f3c2cb; }
+      body div .footerGeneral .derechos h4 {
+        text-align: center; }
+      body div .footerGeneral .derechos h5 {
+        text-align: center; }
+  body main.contentNosotros main article .parrafoNosotros {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: #f4439e; }
+  body main.contentNosotros main .nosotrosFoto img {
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 100%;
+    height: 100%; }
+  .mainTips {
+    display: block; }
+    .mainTips div {
+      width: 100%;
+      height: 75%;
+      margin-bottom: 5rem;
+      margin-top: 5rem; }
+      .mainTips div img {
+        width: 100%;
+        height: 100%; }
+  .imgFirstMobileTips {
+    display: none; }
+  .parrafoMarcas {
+    padding-top: 1rem;
+    font-size: 1.2rem; } }
+
+@media screen and (min-width: 1200px) {
+  body .mainContent {
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: "banner banner banner banner" "subOferta subOferta subOferta subOferta" "imagen1 imagen2  imagen3 imagen4";
+    justify-content: center;
+    justify-items: center;
+    gap: .5rem; }
+    body .mainContent .banner {
+      grid-area: banner; }
+    body .mainContent .banner img {
+      width: 100%;
+      justify-content: center; }
+    body .mainContent .banner img:hover {
+      transform: scale(1.05); }
+    body .mainContent .subOferta {
+      grid-area: subOferta;
+      text-align: center;
+      font-size: 150%;
+      color: #f406d8; }
+    body .mainContent .imagen1 {
+      grid-area: imagen1;
+      justify-self: right;
+      display: none; }
+    body .mainContent .imagen1 img {
+      width: 100%; }
+    body .mainContent .imagen2 {
+      grid-area: imagen2;
+      justify-self: left;
+      display: none; }
+    body .mainContent .imagen2 img {
+      width: 100%; }
+    body .mainContent .imagen3 {
+      grid-area: imagen3;
+      justify-self: right;
+      display: none; }
+    body .mainContent .imagen3 img {
+      width: 100%; }
+    body .mainContent .imagen4 {
+      grid-area: imagen4;
+      justify-self: left;
+      display: none; }
+    body .mainContent .imagen4 img {
+      width: 100%; }
+  body div header {
+    background-color: #f48fb1;
+    text-align: center; }
+    body div header div a {
+      height: 3.7rem; }
+      body div header div a .logo {
+        width: 8.2rem;
+        margin-top: -2.3rem; }
+  main .catalogo {
+    display: grid;
+    grid-template-areas: "categorias categorias categorias categorias" "producto1 producto2 producto3 producto4"  "producto5 producto6 producto7 producto8"  "producto9 producto10 producto11 producto12" "producto13 producto14 producto15 producto16" "producto17 producto18 producto19 producto20";
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  main .categoriasM {
+    grid-area: categorias; }
+    main .categoriasM h2 {
+      font-size: 3rem; }
+    main .categoriasM nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 15rem; }
+      main .categoriasM nav ul .subtitulo {
+        font-size: 2rem; }
+      main .categoriasM nav ul li {
+        color: #f406d8; }
+  main .producto1 {
+    grid-area: producto1; }
+  main .producto2 {
+    grid-area: producto2; }
+  main .producto3 {
+    grid-area: producto3; }
+  main .producto4 {
+    grid-area: producto4; }
+  main .producto5 {
+    grid-area: producto5; }
+  main .producto6 {
+    grid-area: producto6; }
+  main .producto7 {
+    grid-area: producto7; }
+  main .producto8 {
+    grid-area: producto8; }
+  main .producto9 {
+    grid-area: producto9; }
+  main .producto10 {
+    grid-area: producto10; }
+  main .producto11 {
+    grid-area: producto11; }
+  main .producto12 {
+    grid-area: producto12; }
+  main .producto13 {
+    grid-area: producto13; }
+  main .producto14 {
+    grid-area: producto14; }
+  main .producto15 {
+    grid-area: producto15; }
+  main .producto16 {
+    grid-area: producto16; }
+  main .producto17 {
+    grid-area: producto17; }
+  main .producto18 {
+    grid-area: producto18; }
+  main .producto19 {
+    display: block;
+    grid-area: producto19; }
+  main .producto20 {
+    display: block;
+    grid-area: producto20; }
+  .mainTips {
+    display: block; }
+    .mainTips div {
+      width: 100%;
+      height: 75%;
+      margin-bottom: 3rem;
+      margin-top: 3rem; }
+      .mainTips div img {
+        width: 100%;
+        height: 100%; }
+  .imgFirstMobileTips {
+    display: none; }
+  body main.contentNosotros main article .parrafoNosotros {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: #f4439e; }
+  body main.contentNosotros main .nosotrosFoto img {
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 100%;
+    height: 100%; }
+  .parrafoMarcas {
+    padding-top: 1rem;
+    font-size: 2rem; } }

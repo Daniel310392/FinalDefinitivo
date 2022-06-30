@@ -1,0 +1,11 @@
+@mixin medidas ($width, $height) {
+
+    width: $width;
+    height: $height ;
+    
+}
+
+@mixin flex {
+    display: flex;
+    
+}

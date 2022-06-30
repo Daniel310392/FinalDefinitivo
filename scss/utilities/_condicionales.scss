@@ -1,0 +1,10 @@
+@mixin condicion($colores){
+    background-color: $colores;
+
+    @if $colores == orange {
+        padding: 1rem;
+    }
+    @else {
+        padding: 0.5rem;
+    }
+}
